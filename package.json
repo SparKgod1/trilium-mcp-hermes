@@ -1,10 +1,10 @@
 {
-  "name": "triliumnext-mcp",
+  "name": "trilium-mcp-hermes",
   "version": "0.3.17",
-  "description": "A model context protocol server for TriliumNext Notes",
+  "description": "A Hermes-optimized MCP server for TriliumNext Notes",
   "type": "module",
   "bin": {
-    "triliumnext-mcp": "./build/index.js"
+    "trilium-mcp-hermes": "./build/index.js"
   },
   "files": [
     "build"

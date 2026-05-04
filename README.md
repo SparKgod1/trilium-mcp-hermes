@@ -1,6 +1,6 @@
-# triliumnext-mcp-minimal
+# trilium-mcp-hermes
 
-A minimized TriliumNext MCP server variant for Hermes workflows.
+A compact, Hermes-optimized TriliumNext MCP server.
 
 ## Included tools
 - `resolve_note_id`
@@ -11,8 +11,8 @@ A minimized TriliumNext MCP server variant for Hermes workflows.
 - `sync_subtree_content`
 
 ## Why this fork exists
-- Reduces exposed MCP tool/schema size for better compatibility with Hermes MCP loading.
-- Keeps the note-organization workflow tools while removing unrelated write/attribute tools.
+- Smaller MCP tool surface for better Hermes compatibility.
+- Keeps the note-workflow tools needed for Trilium organization.
 
 ## Run
 ```bash
@@ -23,5 +23,5 @@ node build/index.js
 ```
 
 ## Notes
-- This repo is derived from a local optimized copy of `triliumnext-mcp` version `0.3.17`.
-- Current package metadata still uses the upstream package name unless you want me to rename it.
+- Derived from `triliumnext-mcp` `0.3.17`.
+- Package/bin names now match the repository branding.
